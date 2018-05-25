@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var name = prompt('请输入您的姓名: ');
+        var age = prompt('请输入您的年龄: ');
+        if (isNaN(age)) {
+            alert('请输入数字!!!')
+        }
+        var sex = prompt('请输入您的性别: ');
+        alert('姓名: ' + name + '\n年龄: ' + age + '\n' + '性别: ' + sex);
+
+        var a = 1;
+        var b = 2;
+        var c = b;
+        b = a;
+        a = c;
+        console.log(a, b);
+
+        var str = '张三';
+        var flag = true;
+        var num = 11;
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
